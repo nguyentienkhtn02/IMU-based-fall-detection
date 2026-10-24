@@ -1,0 +1,71 @@
+{
+  "sample_rate_hz": 50,
+  "window_seconds": 2.0,
+  "window_size": 100,
+  "step_size": 50,
+  "channel_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "channel_names": [
+    "acc_x",
+    "acc_y",
+    "acc_z",
+    "gyro_x",
+    "gyro_y",
+    "gyro_z"
+  ],
+  "label_mapping": {
+    "0": "non-fall/ADL",
+    "1": "fall"
+  },
+  "normalization": "zscore",
+  "train_subjects": [
+    "SA01",
+    "SA04",
+    "SA05",
+    "SA06",
+    "SA07",
+    "SA08",
+    "SA10",
+    "SA11",
+    "SA16",
+    "SA17",
+    "SA18",
+    "SA19",
+    "SA20",
+    "SA21",
+    "SA23",
+    "SE01",
+    "SE02",
+    "SE03",
+    "SE04",
+    "SE05",
+    "SE06",
+    "SE07",
+    "SE08",
+    "SE09",
+    "SE12",
+    "SE13",
+    "SE15"
+  ],
+  "validation_subjects": [
+    "SA12",
+    "SA13",
+    "SA15",
+    "SA22",
+    "SE10",
+    "SE14"
+  ],
+  "test_subjects": [
+    "SA02",
+    "SA03",
+    "SA09",
+    "SA14",
+    "SE11"
+  ]
+}
